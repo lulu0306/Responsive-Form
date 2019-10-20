@@ -5,9 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles.css" />
-    <title>Document</title>
+    <title>ZENVA FORM</title>
 </head>
 <body>
-    
+    <div id="divwrapper">
+        <h2>My Form</h2>
+        <form id='formwrapper'>
+            <section id="left-column">
+                <fieldset>
+                    <legend>Block One</legend>
+                    <p>
+                    <input id="firstname" name="firstname" type="text" placeholder="First Name" autofocus required tabindex="1">
+                    <input id="lastname" name="lastname" type="text" placeholder="Last Name" required tabindex="2">
+                    <input id="email" name="email" type="email" placeholder="email@somewhere.com" required tabindex="3">
+                    <input id="url" name="url" type="url" placeholder="URL">
+                </p>
+                <p>
+                  <label for="username">username:</label>
+                  <input id="username" name="username" type="username" >
+                  <label for="password">password:</label>
+                  <input id="password" name="password" type="password" >
+                </p>
+                </fieldset>
+                <fieldset>
+                        <legend>Block Two</legend>
+                        <p>
+                            <input id="addresse1" name="addresse1" type="text" placeholder="Addresse 1">
+                            <input id="addresse2" name="addresse2" type="text" placeholder="Addresse 2">
+                            <input id="city" name="city" type="text" placeholder="city">
+                            <input id="zip" name="zip" type="number" placeholder="zip code">
+                        </p>
+                        <p>
+                            <select>
+                                <optgroup label="USA">
+                                    <option>Chicago </option>
+                                    <option>New York</option>
+                                    <option>Dallas</option>
+                                </optgroup>
+                                <optgroup label="Australia">
+                                        <option>Brisbane </option>
+                                        <option>Sydney</option>
+                                        <option>Melbourne</option>
+                                    </optgroup>
+                            </select>
+                            <select name="state" id="state">
+                                <option selected='selected'>Select a State</option>
+                            </select>
+                        </p>
+                </fieldset>
+            </section>
+            <section id="right-column">
+                <fieldset>
+                        <legend>Block Three</legend>
+                        <p>
+                        <span><input type="radio" name="color" value="red"/>Red</span>
+                        <span><input type="radio" name="color" value="green"/>Green</span>
+                        <span><input type="radio" name="color" value="blue"/>Blue</span>
+                        <span><input type="radio" name="color" value="cyan"/>Cyan</span>
+                        <span><input type="radio" name="color" value="magenta"/>Magenta</span>
+                        <span><input type="radio" name="color" value="yellow"/>Yellow</span>
+                        </p>
+                        <p>
+                         <span><input type='checkbox' name="fruit" value="apple">Apple</span>
+                         <span><input type='checkbox' name="fruit" value="orange">Orange</span>
+                         <span><input type='checkbox' name="fruit" value="banana">Banana</span>
+                         <span><input type='checkbox' name="fruit" value="peach">Peach</span>
+                         <span><input type='checkbox' name="fruit" value="pear">Pear</span>
+                         <span><input type='checkbox' name="fruit" value="plumb">Plumb</span>
+                        </p>
+                </fieldset>
+                <fieldset>
+                        <legend>Block Four</legend>
+                        <textarea rows='4' cols="40" placeholder="what did you do today"></textarea>
+                        <p>
+                        <input type="submit" value="submit"/>
+                        </p>
+                </fieldset>
+            </section>
+        </form>
+    </div>
+    <footer>
+        <img src="./img/logo.png" alt='zenva-logo'/>
+    </footer>
 </body>
 </html>
