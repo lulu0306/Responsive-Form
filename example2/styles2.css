@@ -1,0 +1,40 @@
+body{
+    padding:40px ;
+    font-family: Arial;
+}
+
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: thick solid #9900ff;
+    background-color: #00ffaa;
+}
+
+.textInput{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#pet-selection{
+    margin-top: 10px;
+   display: none;
+}
+
+#save-button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #9900ff;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}

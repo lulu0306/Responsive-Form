@@ -67,3 +67,12 @@ footer{
         padding: 0;
     }
 }
+
+nav.navbar{
+   padding: 20px;
+   margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
